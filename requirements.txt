@@ -1,0 +1,5 @@
+pip==23.0.1
+Django~=4.1.6
+redis==4.5.1
+django-redis~=5.2.0
+web3==5.31.3

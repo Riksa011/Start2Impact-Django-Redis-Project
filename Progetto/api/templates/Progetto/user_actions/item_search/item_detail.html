@@ -1,0 +1,16 @@
+{% extends 'Progetto/base.html' %}
+
+{% block content %}
+    <h1 class="display-4 my-4 text-center">Item details</h1>
+
+    <div class="input-group mb-3 my-4 container">
+        <article>
+            <h3>{{ item.item_name }}</h3>
+            <p>Current Owner: {{ item.owner }}</p>
+            <p>ID code: {{ item.id_code }}</p>
+            <p>Description: {{ item.item_description }}</p>
+            <p><time>Uploaded: {{ item.upload_date }}</time></p>
+            <p>History: <br>for action proof see on etherscan: Transaction Details--> More Details--> Input Data--> View as UTF-8<br><br>{{ item.item_history }}</p>
+        </article>
+    </div>
+{% endblock %}

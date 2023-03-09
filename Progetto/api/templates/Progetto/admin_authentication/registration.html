@@ -1,0 +1,17 @@
+{% extends 'Progetto/base.html' %}
+
+{% block content %}
+    <h1 class="display-4 my-4 text-center">Admin Registration</h1>
+
+    <div class="input-group mb-3 my-4 container d-flex justify-content-center">
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <div class="text-center">
+                 <div>
+                    <button type="submit">Register</button>
+                 </div>
+            </div>
+        </form>
+    </div>
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends 'Progetto/base.html' %}
+
+{% block content %}
+    <h1 class="display-4 my-4 text-center">Change Item Owner</h1>
+
+    <div class="input-group mb-3 my-4 container text-center d-flex justify-content-center">
+        <form method="post">
+            {% csrf_token %}
+            <label for="item">Select Item:</label>
+            <select name="item" id="item">
+                {% for item in items %}
+                <option value="{{ item.id_code }}">{{ item.item_name }}</option>
+                {% endfor %}
+            </select>
+            <br><br>
+            <label for="owner">Select new owner:</label>
+            <select name="owner" id="owner">
+                {% for user in users %}
+                <option value="{{ user.nickname }}">{{ user.nickname }}</option>
+                {% endfor %}
+            </select>
+            <br><br>
+            <input type="submit" value="Save">
+        </form>
+    </div>
+{% endblock %}
