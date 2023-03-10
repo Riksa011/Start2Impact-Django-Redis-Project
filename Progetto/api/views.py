@@ -46,6 +46,7 @@ def custom_login_required(view_func):
     return wrapper
 
 
+@custom_login_required
 # function for new admin registration
 def admin_register(request):
     if request.method == 'POST':

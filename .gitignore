@@ -2,5 +2,4 @@
 .env
 
 # Ignore files related to the database
-*.sqlite3
-*.log
+db.sqlite3
