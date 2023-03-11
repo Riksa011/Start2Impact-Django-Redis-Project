@@ -12,6 +12,7 @@ If implemented correctly together with a second-hand marketplace, SecondChance c
 <hr/>
 
 
+
 ## Main Features:
 
 - A website homepage with a brief explanation of the project
@@ -22,48 +23,56 @@ If implemented correctly together with a second-hand marketplace, SecondChance c
 
 - A section where administrators can create a new account and log into the platform
 <p align="center">
-    <img src="" alt="ADMIN ACTIONS DROPDOWN - IMAGE 2">
-    <img src="" alt=" - IMAGE 1">
-    <img src="" alt=" - IMAGE 1">
+    <img src="" alt="ADMIN AUTHENTICATION DROPDOWN - IMAGE 2">
+    <img src="" alt="ADMIN REGISTER - IMAGE 3">
+    <img src="" alt="ADMIN LOGIN - IMAGE 4">
+    <img src="" alt="ADMIN PROFILE - IMAGE 4">
 </p>
-register
-log
-admin profile
 
-- A page where administrators can upload a new clothing item
-<p align="center">
-    <img src="" alt="">
-</p>
-not logged
-upload
-item success
 
-- A page where administrators can change an item's owner
+- A page where administrators only can upload a new clothing item
 <p align="center">
-    <img src="" alt="">
+    <img src="" alt="AUTHENTICATION ERROR: MUST BE LOGGED AS ADMIN - IMAGE 1">
+    <img src="" alt="ITEM UPLOAD - IMAGE 1">
+    <img src="" alt="ITEM UPLOADED SUCCESSFULLY - IMAGE 1">
 </p>
-change
-success
 
-- A page where anyone can enter an ID code of a specific item and see its past transactions provided with the blockchain proof 
-<p align="center">
-    <img src="" alt="">
-</p>
-transaction
-search
-item info
 
 - A page where anyone can see all the items uploaded on the platform and their leading information
 <p align="center">
-    <img src="" alt="">
+    <img src="" alt="USER ACTIONS DROPDOWN - IMAGE 1">
+    <img src="" alt="UPLOADED ITEMS - IMAGE 1">
 </p>
-all items
+
+
+- A page where anyone can enter an ID code of a specific item and see its past transactions provided with the blockchain proof 
+<p align="center">
+    <img src="" alt="SEARCH ITEM - IMAGE 1">
+    <img src="" alt="ITEM INFO - IMAGE 1">
+    <img src="" alt="ON-CHAIN PROOF - IMAGE 1">
+</p>
+
+
+- A page where administrators can change an item's owner
+<p align="center">
+    <img src="" alt="ADMIN ACTIONS DROPDOWN - IMAGE 1">
+    <img src="" alt="CHANGE ITEM OWNER - IMAGE 1">
+    <img src="" alt="OWNER CHANGED SUCCESSFULLY - IMAGE 1">
+    <img src="" alt="ITEM INFO - IMAGE 1">
+    <img src="" alt="ON-CHAIN PROOF - IMAGE 1">
+</p>
+
 
 - A function that alerts administrators when logging into the platform with a different IP address
 <p align="center">
-    <img src="" alt="">
+    <img src="" alt="WARNING: YOUR CURRENT IP ADDRESS IS DIFFERENT FROM THE LAST ONE - IMAGE 1">
 </p>
-different ip
+
+
+- The ability to adapt the website page and content to different types of devices to allow users to have always the best experience
+<p align="center">
+    <img src="" alt="WEBSITE ADAPTATION EXAMPLE - IMAGE 1">
+</p>
 
 
 
@@ -78,6 +87,7 @@ different ip
 - Run the program by typing `python3 manage.py runserver`.
 - Check that Redis is correctly working by typing `redis-cli ping` in a new terminal window: if the response is something like `PONG`, you're ready to enjoy SeconChance, just open [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your browser.
 - Otherwise, if the response  looks something different from `PONG`, most times it's because Redis just didn't start automatically so do it manually by typing `redis-server`.
+
 
 
 ## Improved Skills
