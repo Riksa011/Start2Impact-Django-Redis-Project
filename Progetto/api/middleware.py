@@ -1,5 +1,6 @@
 import redis
 from django.conf import settings
+from django.contrib import messages
 
 
 # Middleware to check if an admin is accessing the website from the same IP address
@@ -17,15 +18,10 @@ def check_ip_middleware(get_response):
 
         # Compare the last accessed IP with the current IP
         if last_ip and last_ip.decode('utf-8') != current_ip:
-            ip_changed = True
-        else:
-            ip_changed = False
+            messages.warning(request, f"Warning: last access was made from a different IP ({last_ip.decode('utf-8')})")
 
         # Store the current IP as the last accessed IP
         r.set(f"last_admin_ip:{admin_user.id}", current_ip)
-
-        # Add the ip_changed variable to the request context
-        request.ip_changed = ip_changed
 
         # Print the current IP, the last accessed IP and the admin user to check if the middleware is working
         print(f"Admin User: {admin_user.username}")
