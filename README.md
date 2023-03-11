@@ -14,9 +14,17 @@ If implemented correctly together with a second-hand marketplace, SecondChance c
 
 ## Main Features:
 
+- A website homepage with a brief explanation of the project
+<p align="center">
+    <img src="" alt="HOMEPAGE - IMAGE 1">
+</p>
+
+
 - A section where administrators can create a new account and log into the platform
 <p align="center">
-    <img src="" alt="">
+    <img src="" alt="ADMIN ACTIONS DROPDOWN - IMAGE 2">
+    <img src="" alt=" - IMAGE 1">
+    <img src="" alt=" - IMAGE 1">
 </p>
 register
 log
@@ -58,22 +66,19 @@ all items
 different ip
 
 
-admin credentials to give it a try
-username: admin1
-password: RBNO7uzI5oXXYuw6Hor38I5ih
-
-
 
 ## How to deploy
 
-- Download the repository file and be sure to have a Python IDE installed (I recommend [PyCharm](https://www.jetbrains.com/pycharm/)).
-- Open the program file and create a virtual environment
+- Download the repository file 
+- Be sure to have Python installed on your device, for this project i used Python 3.10.6.
+- Be sure to have a Python IDE on board (I recommend [PyCharm](https://www.jetbrains.com/pycharm/)).
+- Open the program file in your IDE and create a virtual environment.
 - Install program requirements by typing `pip install -r requirements.txt` in a new terminal window.
-- Update the program database by typing `cd Progetto`, `python manage.py makemigrations` and `python manage.py migrate`.
-- Run the program by typing `python manage.py runserver`.
+- Update the program database by typing `cd Progetto`, `python3 manage.py makemigrations` and `python3 manage.py migrate`.
+- Run the program by typing `python3 manage.py runserver`.
 - Check that Redis is correctly working by typing `redis-cli ping` in a new terminal window: if the response is something like `PONG`, you're ready to enjoy SeconChance, just open [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your browser.
 - Otherwise, if the response  looks something different from `PONG`, most times it's because Redis just didn't start automatically so do it manually by typing `redis-server`.
 
 
 ## Improved Skills
-Python, Django, Redis, Etherum Goerli Testnet, HTML and CSS
+Python, Django, Redis, Etherum Goerli Testnet, HTML and Boostrap CSS
