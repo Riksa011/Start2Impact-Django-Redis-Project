@@ -15,64 +15,72 @@ If implemented correctly together with a second-hand marketplace, SecondChance c
 
 ## Main Features:
 
-- A website homepage with a brief explanation of the project
+- #### A website homepage with a brief explanation of the project
 <p align="center">
     <img src="images/1.png" alt="HOMEPAGE - IMAGE 1">
 </p>
+<br><br>
 
 
-- A section where administrators can create a new account and log into the platform
+- #### A section where administrators can create a new account and log into the platform
 <p align="center">
     <img src="images/2.png" alt="ADMIN AUTHENTICATION DROPDOWN - IMAGE 2">
     <img src="images/3.png" alt="ADMIN REGISTER - IMAGE 3">
     <img src="images/4.png" alt="ADMIN LOGIN - IMAGE 4">
     <img src="images/5.png" alt="ADMIN PROFILE - IMAGE 5">
 </p>
+<br><br>
 
 
-- A page where administrators only can upload a new clothing item
+- #### A page where administrators only can upload a new clothing item
 <p align="center">
     <img src="images/6.png" alt="ADMIN ACTIONS DROPDOWN - IMAGE 6">
     <img src="images/7.png" alt="AUTHENTICATION ERROR: MUST BE LOGGED AS ADMIN - IMAGE 7">
     <img src="images/8.png" alt="ITEM UPLOAD - IMAGE 8">
     <img src="images/9.png" alt="ITEM UPLOADED SUCCESSFULLY - IMAGE 9">
 </p>
+<br><br>
 
 
-- A page where anyone can see all the items uploaded on the website and their leading information
+- #### A page where anyone can see all the items uploaded on the website and their leading information
 <p align="center">
     <img src="images/10.png" alt="USER ACTIONS DROPDOWN - IMAGE 10">
     <img src="images/11.png" alt="UPLOADED ITEMS - IMAGE 11">
 </p>
+<br><br>
 
 
-- A page where anyone can enter an ID code of a specific item and see its past transactions provided with the blockchain proof 
+- #### A page where anyone can enter an ID code of a specific item and see its past transactions provided with the blockchain proof 
 <p align="center">
     <img src="images/12.png" alt="SEARCH ITEM - IMAGE 12">
     <img src="images/13.png" alt="ITEM INFO - IMAGE 13">
     <img src="images/14.png" alt="ON-CHAIN PROOF - IMAGE 14">
 </p>
+<br><br>
 
 
-- A page where administrators can change an item's owner
+- #### A page where administrators can change an item's owner
 <p align="center">
     <img src="images/15.png" alt="CHANGE ITEM OWNER - IMAGE 15">
     <img src="images/16.png" alt="OWNER CHANGED SUCCESSFULLY - IMAGE 16">
     <img src="images/17.png" alt="ITEM INFO - IMAGE 17">
     <img src="images/18.png" alt="ON-CHAIN PROOF - IMAGE 18">
 </p>
+<br><br>
 
 
-- A function that alerts administrators when logging into the platform with a different IP address
+- #### A function that alerts administrators when logging into the platform with a different IP address
 <p align="center">
     <img src="images/19.png" alt="WARNING: YOUR CURRENT IP ADDRESS IS DIFFERENT FROM THE LAST ONE - IMAGE 19">
 </p>
+<br><br>
 
 
-- The ability to adapt the website page and content to different types of devices to allow users to have always the best experience
+- #### The ability to adapt the website page and content to different types of devices to allow users to have always the best experience
 <p align="center">
     <img src="images/20.png" alt="WEBSITE ADAPTATION EXAMPLE - IMAGE 20">
 </p>
+<br><br>
 
 
 
