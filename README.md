@@ -4,6 +4,8 @@
     <img src="Progetto/api/static/icons/logo1.png" alt="SecondChance logo">
 </p>
 
+This is my Django Redis project for [Start2Impact](https://talent.start2impact.it/profile/riccardo-santi).
+
 ### The main purpose of this project is to combine __Django__, __Redis__, and the __Ethereum Goerli testnet blockchain__ to build a website that allows customers of a second-hand clothing marketplace to track the history of an item through the blockchain.
 
 SecondChance is a __Proof of Concept__, an exercise focused on determining if an idea can be turned into a reality or not. For this reason, it covers only the item transaction on-chain proof and should be connected to an online marketplace to be used in a real situation. 
