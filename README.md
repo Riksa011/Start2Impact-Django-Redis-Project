@@ -15,7 +15,7 @@ If implemented correctly together with a second-hand marketplace, SecondChance c
 
 
 
-## Main Features:
+## 🚀 Main Features:
 
 - #### A website homepage with a brief explanation of the project
 <p align="center">
@@ -86,7 +86,7 @@ If implemented correctly together with a second-hand marketplace, SecondChance c
 
 
 
-## How to deploy
+## 🛠️ How to deploy
 
 - Download the repository file 
 - Be sure to have Python installed on your device, for this project i used Python 3.10.6.
@@ -100,5 +100,8 @@ If implemented correctly together with a second-hand marketplace, SecondChance c
 
 
 
-## Improved Skills
+## 📈 Improved Skills
 Python, Django, Redis, Etherum Goerli Testnet, HTML and Boostrap CSS
+
+## 👨‍💻 About me
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/riccardo-santi/)
