@@ -11,10 +11,23 @@ This is my Django Redis project for [Start2Impact](https://talent.start2impact.i
 SecondChance is a __Proof of Concept__, an exercise focused on determining if an idea can be turned into a reality or not. For this reason, it covers only the item transaction on-chain proof and should be connected to an online marketplace to be used in a real situation. 
 <br>
 If implemented correctly together with a second-hand marketplace, SecondChance could lead to several advantages such as __enhanced transparency__, __increased trust__ between buyers and sellers, and a more __sustainable fashion industry__.
-<hr/>
 
 
+<br>
 
+
+## 📖Index
+
+- [ 🚀 Main Features ](#mainfeatures)
+- [ 🛠️ How to deploy ](#howtodeploy)
+- [ 📈 Improved Skills ](#improvedskills)
+- [ 👨‍💻 About me ](#aboutme)
+
+
+<br>
+
+
+<a name="mainfeatures"></a>
 ## 🚀 Main Features:
 
 - #### A website homepage with a brief explanation of the project
@@ -82,10 +95,10 @@ If implemented correctly together with a second-hand marketplace, SecondChance c
 <p align="center">
     <img src="images/20.png" alt="WEBSITE ADAPTATION EXAMPLE - IMAGE 20">
 </p>
-<br><br>
+<br>
 
 
-
+<a name="howtodeploy"></a>
 ## 🛠️ How to deploy
 
 - Download the repository file 
@@ -98,10 +111,15 @@ If implemented correctly together with a second-hand marketplace, SecondChance c
 - Check that Redis is correctly working by typing `redis-cli ping` in a new terminal window: if the response is something like `PONG`, you're ready to enjoy SeconChance, just open [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your browser.
 - Otherwise, if the response  looks something different from `PONG`, most times it's because Redis just didn't start automatically so do it manually by typing `redis-server`.
 
+<br>
 
-
+<a name="improvedskills"></a>
 ## 📈 Improved Skills
 Python, Django, Redis, Etherum Goerli Testnet, HTML and Boostrap CSS
 
+<br>
+
+<a name="aboutme"></a>
 ## 👨‍💻 About me
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/riccardo-santi/)
+
